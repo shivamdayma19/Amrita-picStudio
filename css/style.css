@@ -1,0 +1,245 @@
+* {
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+ body {
+    background-color: rgb(250, 247, 247);
+    padding: 10px; 
+    font-family: "Smooch Sans", sans-serif;
+    
+}  
+
+
+.mobile-container{
+     margin: 0 auto;
+     background-color: rgb(247, 92, 92);
+     padding: 10px;
+     width: 100%;
+     max-width: 400px;
+     border-radius: 15px;
+}
+  
+ .card-logo-background { 
+    background-color: #fff;
+    width:100%;
+    min-height: 300px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.icon {
+    text-align: center;
+    margin-top: -80px;
+    height: 200px;
+    width: 200px;
+    
+    
+}
+
+.icon img {
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+  object-fit: cover;
+  
+}
+
+.icon-container {
+  
+  align-items: center;
+  justify-content: center;
+  
+}
+ 
+
+ .tag-line {
+    margin-top: -35px;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(131, 134, 134);
+    text-align: center;
+
+
+}
+
+ 
+
+ .card-logo-background-2{
+    background-color: #fff;
+    max-width: 100%;
+    width: 600px;
+    height: 300px auto;
+    border-radius: 20px;
+    margin: 10px auto;
+    text-align: center;
+    padding-bottom: 20px;
+    
+    
+}
+
+ .icon-sooraj img { 
+   
+    height: 170px;
+    width: 170px;
+    border-radius:90px;
+    margin:-70px ; 
+    border: solid 8px; color: rgb(247, 92, 92);
+     
+} 
+
+ .name {
+   
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(3, 4, 4);
+    margin: 65px;   
+}
+    
+.proffesion {
+
+    margin: -65px;
+    color: rgb(131, 134, 134);
+    font-size: 15px;
+    font-weight: bold;
+    display: block;
+}
+   
+
+.lorem {
+    
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 80px;
+    color: rgb(113, 115, 115);
+    text-align: center;
+      
+}
+.icon-background{
+    
+    display: flex;  
+    justify-content: center;
+    
+    margin: 20px;
+    font-size: 40px;
+    border-radius: 50px;
+    
+    color: rgb(81, 8, 8);
+    padding: 5px ;
+    gap: 15px;
+
+  
+    
+} 
+
+.icon-background a i { 
+    color: rgb(254, 254, 254);
+    background-color: rgb(204, 89, 89);
+    border-radius: 100%;
+    
+    display: inline-block;
+    
+
+}
+
+.icon-background a {
+  text-decoration: none;
+  display: flex;
+  gap: 10px;
+  
+}
+
+.photo-gallary {
+   font-weight: bold;
+   font-size: 40px;
+   color: rgb(208, 100, 61);
+   padding: 10px;
+   
+   
+   
+}
+
+
+.added-photos img {
+    width: 115px;
+    height: 180px;
+    border-radius: 8px;   
+}
+
+.services{ 
+    background-color: #fff;
+    max-width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(208, 100, 61);;
+    
+        
+}
+
+
+.list{ 
+    font-size: 20px;
+    color: rgb(106, 7, 7);
+    margin-top: 50px;
+    font-weight: bold;
+    background-color: #fff;
+    max-width: 100%;
+    width: 600px;
+    height: 300px auto;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin: 10px auto;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 40px;
+    margin-top: 0px;
+
+}
+
+
+.address{
+    margin: 0 auto;
+    background-color: #fff;
+    max-width: 100%;
+    width: 600px;
+    height: 300px auto;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    margin: 0px auto;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    color:rgb(208, 100, 61);
+    padding-top: 25px;
+}
+
+.add-discription{ font-size: 20px;
+    color: rgb(106, 7, 7);
+    
+    font-weight:bold ;
+    background-color: #fff;
+    max-width: 100%;
+    width: 600px;
+    height: 300px auto;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin: 10px auto;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 40px;
+    margin-top: 0px;}
+
+
+    .copyright{ padding-top: 50px;
+                font-size: 15px;
+    
+    
+    }
