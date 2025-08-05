@@ -13,7 +13,7 @@
 
 .mobile-container{
      margin: 0 auto;
-     background-color: rgb(247, 92, 92);
+     background-color: #239BA7;
      padding: 10px;
      width: 100%;
      max-width: 430px;
@@ -86,7 +86,7 @@
     width: 170px;
     border-radius:90px;
     margin:-70px ; 
-    border: solid 8px; color: rgb(247, 92, 92);
+    border: solid 8px; color: #239BA7;
      
 } 
 
@@ -120,43 +120,38 @@
 }
 .icon-background{
     
-    display: flex;  
-    justify-content: center;
     
+     padding: 10px;
     margin: 20px;
-    font-size: 40px;
-    border-radius: 50px;
-    
-    color: rgb(81, 8, 8);
-    padding: 5px ;
-    gap: 15px;
-
-  
-    
+    display: inline-flex;
+    text-align: center;
+    gap: 15px;    
 } 
 
-.icon-background a i { 
-    color: rgb(254, 254, 254);
-    background-color: rgb(204, 89, 89);
-    border-radius: 100%;
-    
-    display: inline-block;
-    
 
+
+.icon-background  a i { 
+    color: rgb(254, 254, 254);
+    background-color: #239BA7;
+    border-radius: 100%;
+    padding: 5px;
+    
+    
 }
 
 .icon-background a {
   text-decoration: none;
-  display: flex;
-  gap: 10px;
+  font-size: 30px;
+  
+
   
 }
 
 .photo-gallary {
    font-weight: bold;
    font-size: 40px;
-   color: rgb(208, 100, 61);
-   padding: 10px;   
+   color: #1d909b;
+     
 }
 
 
@@ -168,15 +163,19 @@
     flex-wrap: wrap; 
     display: flex;   
     line-height: 0;
+    justify-content: center;
+    
 }
 
 .added-photos img {
     width: 100%;
+    border-radius: 5px;
     
 }
 
 .image-wr{
     width: calc(33% - 4px);
+    
     
 }
 
@@ -189,7 +188,7 @@
     padding-top: 25px;
     font-size: 40px;
     font-weight: bold;
-    color: rgb(208, 100, 61);;       
+    color: #1d909b;       
 }
 
 
@@ -226,7 +225,7 @@
     padding-bottom: 20px;
     font-size: 40px;
     font-weight: bold;
-    color:rgb(208, 100, 61);
+    color:#1d909b;
     padding-top: 25px;
 }
 
