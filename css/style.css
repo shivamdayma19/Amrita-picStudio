@@ -5,8 +5,7 @@
 }
 
  body {
-    background-color: rgb(250, 247, 247);
-    padding: 10px; 
+     
     font-family: "Smooch Sans", sans-serif;
     
 }  
@@ -17,7 +16,7 @@
      background-color: rgb(247, 92, 92);
      padding: 10px;
      width: 100%;
-     max-width: 400px;
+     max-width: 430px;
      border-radius: 15px;
 }
   
@@ -71,7 +70,7 @@
  .card-logo-background-2{
     background-color: #fff;
     max-width: 100%;
-    width: 600px;
+    width: 430px;
     height: 300px auto;
     border-radius: 20px;
     margin: 10px auto;
@@ -96,16 +95,17 @@
     font-size: 30px;
     font-weight: bold;
     color: rgb(3, 4, 4);
-    margin: 65px;   
+    margin-top: 70px; 
 }
     
 .proffesion {
 
-    margin: -65px;
+    /* margin: -65px; */
     color: rgb(131, 134, 134);
     font-size: 15px;
     font-weight: bold;
     display: block;
+
 }
    
 
@@ -113,7 +113,7 @@
     
     font-size: 20px;
     font-weight: bold;
-    margin-top: 80px;
+    margin-top: 20px;
     color: rgb(113, 115, 115);
     text-align: center;
       
